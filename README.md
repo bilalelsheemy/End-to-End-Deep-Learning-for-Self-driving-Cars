@@ -72,32 +72,34 @@ As you can see I’ve implemented the CNN published in End to End Learning for S
    -Taken from Adam: A Method for Stochastic Optimization, 2015.
    
 <figure>
- <img src="Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron.png" width="1072" alt="Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron" />
+ <img src="Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron.png" width="536" alt="Comparison-of-Adam-to-Other-Optimization-Algorithms-Training-a-Multilayer-Perceptron" />
  <figcaption>
  <p></p> 
  </figcaption>
 </figure>
 
 - **3. Appropriate training data.**
-- **Actually I’ve tried many approaches to collect training data:**
-   - 1- Using only Udacity dataset.
-   - 2- Combining Udacity dataset with recovery data.
-   - 3- Training on my own collected data.
+   - **Actually I’ve tried many approaches to collect training data:**
+      - 1- Using only Udacity dataset.
+      - 2- Combining Udacity dataset with recovery data.
+      - 3- Training on my own collected data.
    
-- Finally I decided to go with only data set from Udacity as I’ve noticed that the model is performing aggressively in the steers when learn from my own data, so I aided Udacity data with some of the powerful augmentation techniques in order to increase and balance the dataset as it was firstly biased towards zero steers, by down-sampling the zero steers examples as shown.
+   - Finally I decided to go with only data set from Udacity as I’ve noticed that the model is performing aggressively in the steers when learn from my own data, so I aided Udacity data with some of the powerful augmentation techniques in order to increase and balance the dataset as it was firstly biased towards zero steers, by down-sampling the zero steers examples as shown.
 
-- **1. Before Data Balance.**
-- **2. After Data Balance.**
+   - **1. Before Data Balance.**
+
 
 <figure>
- <img src="DataBeforeBalance.png" width="1072" alt="DataBeforeBalance" />
+ <img src="DataBeforeBalance.png" width="804" alt="DataBeforeBalance" />
  <figcaption>
  <p></p> 
  </figcaption>
 </figure>
 
+   - **2. After Data Balance.**
+
 <figure>
- <img src="DataAfterBalance.png" width="1072" alt="DataBeforeBalance" />
+ <img src="DataAfterBalance.png" width="804" alt="DataBeforeBalance" />
  <figcaption>
  <p></p> 
  </figcaption>
