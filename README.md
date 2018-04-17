@@ -50,7 +50,7 @@ Model Architecture and Training Strategy
 As you can see I’ve implemented the CNN published in End to End Learning for Self-Driving Cars paper.
 
 <figure>
- <img src="../../RubricPhotos/1.png" width="1072" alt="Combined Image" />
+ <img src="./../../RubricPhotos/1.png" width="1072" alt="Combined Image" />
  <figcaption>
  <p></p> 
  </figcaption>
