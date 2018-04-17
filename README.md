@@ -49,4 +49,9 @@ Model Architecture and Training Strategy
   - Attempts to reduce overfitting in the model.
 As you can see I’ve implemented the CNN published in End to End Learning for Self-Driving Cars paper.
 
-![Nvidia End to End Learning for Self-Driving Cars]("1.png")
+<figure>
+ <img src="1.png" width="1072" alt="Nvidia End to End Learning for Self-Driving Cars" />
+ <figcaption>
+ <p></p> 
+ </figcaption>
+</figure>
